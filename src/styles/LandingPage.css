@@ -1,0 +1,38 @@
+.pr-6,
+.px-6 {
+    padding-right: 6rem !important;
+}
+
+.pl-6,
+.px-6 {
+    padding-left: 6rem !important;
+}
+
+.mt-8 {
+    margin-top: 8rem !important;
+}
+
+.mb-8 {
+    margin-bottom: 8rem !important;
+}
+
+.custom-h1 {
+    color: #111111;
+    font-weight: 650;
+    font-size: 3rem;
+}
+
+.img-btn {
+    width: 128px;
+    height: 128px;
+    margin-right: 0rem;
+}
+
+.custom-btn.btn {
+    transition: background-color 0.3s ease;
+    border-radius: 21px;
+}
+
+.custom-btn.btn:hover {
+    background-color: white;
+}
