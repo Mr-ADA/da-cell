@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
 import CatalogCard from "../components/CatalogCard";
+import Pagination from "../components/Pagination";
 import "../styles/Catalog.css";
 
 export default function Catalog() {
@@ -22,9 +22,9 @@ export default function Catalog() {
           <CatalogCard />
           <CatalogCard />
           <CatalogCard />
+          <Pagination />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
