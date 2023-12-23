@@ -1,0 +1,23 @@
+nav {
+  margin: 2em auto 0;
+}
+
+nav ul li {
+  margin: 0.2em;
+}
+
+nav ul.pagination li.page-item a {
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #545454;
+  border: 0;
+}
+
+/* nav ul.pagination li.page-item:nth-child(5) a {
+  border: 0;
+} */
+
+nav ul.pagination li.page-item a:hover {
+  background-color: #545454;
+  color: #fff;
+}
