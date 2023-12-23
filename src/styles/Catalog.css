@@ -1,0 +1,19 @@
+.catalog {
+  margin: 4.5rem 5.5rem 4.5rem;
+}
+
+.catalog-products {
+  margin: auto;
+  width: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog h3 {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.catalog h1 {
+  font-weight: 700;
+}

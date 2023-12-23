@@ -5,7 +5,7 @@ import "../styles/Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer px-5 d-flex flex-row text-white fixed-bottom">
+    <footer className="footer px-5 d-flex flex-row text-white">
       <div className="row ms-5">
         <h1 className="title text-uppercase">domba allen</h1>
         <div className="socials">

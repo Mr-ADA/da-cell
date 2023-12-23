@@ -1,7 +1,11 @@
 div.card {
   line-height: 0.2em;
-  width: 16rem;
-  height: 20rem;
+  width: 15rem;
+  height: 21rem;
+}
+
+div.card h1 {
+  font-size: 1em;
 }
 
 div.card img {
