@@ -9,13 +9,13 @@ export default function Footer() {
       <div className="row ms-5">
         <h1 className="title text-uppercase">domba allen</h1>
         <div className="socials">
-          <a href="#">
+          <a href="#footer">
             <img src={instagram} alt="instagram" />
           </a>
-          <a href="#">
+          <a href="#footer">
             <img src={facebook} alt="facebook" />
           </a>
-          <a href="#">
+          <a href="#footer">
             <img src={twitter} alt="twitter" />
           </a>
         </div>
