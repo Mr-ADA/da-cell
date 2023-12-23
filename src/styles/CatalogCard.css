@@ -1,0 +1,26 @@
+div.card {
+  line-height: 0.2em;
+  width: 16rem;
+  height: 20rem;
+}
+
+div.card img {
+  width: 10em;
+  height: 10rem;
+}
+
+.color-selectors {
+  margin: 1em auto 0;
+  display: flex;
+  flex: wrap;
+}
+.selector {
+  margin: 0.2em;
+  background-color: black;
+  width: 0.4em;
+  height: 0.4em;
+}
+
+div.card .card-body {
+  margin-bottom: 1em;
+}

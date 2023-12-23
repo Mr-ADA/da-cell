@@ -1,8 +1,9 @@
-import "../styles/Footer.css";
 import Footer from "./Footer";
+import CatalogCard from "./CatalogCard";
+import "../styles/App.css";
 
 function App() {
-  return <Footer />;
+  return <CatalogCard />;
 }
 
 export default App;
