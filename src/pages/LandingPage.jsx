@@ -5,6 +5,7 @@ import ipad from "../assets/ipad.png";
 import mac from "../assets/mac.png";
 import airpods from "../assets/airpods.png";
 import iphone15Slide from "../assets/iphone15.png";
+import toprightarrow from "../assets/toprightarrow.png";
 
 export default function LandingPage() {
     return (
@@ -42,33 +43,29 @@ export default function LandingPage() {
 
         {/* Second section / slide show */}
         <div>
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="row" style= {{ backgroundColor: "#111111" }}>
+            <div class="col-8">
+              <img src={iphone15Slide} className="w-100 h-100"></img>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={iphone15Slide} class="d-block w-100" alt="..."/>
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="..."/>
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="..."/>
-              </div>
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+              <p className="fw-bolder fs-1 text-white mb-0">iPhone 15 Pro</p>
+              <p className="fw-normal fs-5 text-white mb-0">Titanium. So strong. So light. So pro.</p>
+              <a className="d-flex" href="#">
+                <p className="fw-normal fs-3" style= {{ color: "#1B8CEF" }}>Buy</p>
+                <i class="bi bi-arrow-right-short" style={{ fontSize: '2rem' }}></i>
+              </a>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
+
+        {/* Newest product section */}
+        <div className="mt-5">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <h1 className="custom-h1">Newest Products</h1>
+            <p className="fw-normal fs-5">This is just a sample sentence can be anything</p>
+          </div>
+        </div>
+
 
       </div>
     );
