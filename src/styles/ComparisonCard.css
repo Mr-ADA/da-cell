@@ -1,0 +1,40 @@
+.comparison {
+  display: flex;
+  flex: wrap;
+  margin: 6em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 70em;
+  box-shadow: 0 0 12px 0.04px #989898;
+  border-radius: 20px;
+  border: 0;
+}
+
+.comparison img {
+  margin: 1em 2em;
+  width: 30em;
+  height: 23em;
+}
+
+.comparison-title {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 26em;
+  text-align: center;
+  margin: 12% 3em;
+}
+
+.comparison h1 {
+  font-weight: 600;
+}
+
+.comparison h4 {
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.comparison a {
+  color: #1b8cef;
+  text-decoration: none;
+}
