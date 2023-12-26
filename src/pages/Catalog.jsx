@@ -1,5 +1,6 @@
 import CatalogCard from "../components/CatalogCard";
 import Pagination from "../components/Pagination";
+import ComparisonCard from "../components/ComparisonCard";
 import "../styles/Catalog.css";
 
 export default function Catalog() {
@@ -22,9 +23,10 @@ export default function Catalog() {
           <CatalogCard />
           <CatalogCard />
           <CatalogCard />
-          <Pagination />
         </div>
       </div>
+      <Pagination />
+      <ComparisonCard />
     </div>
   );
 }
