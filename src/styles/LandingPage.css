@@ -1,3 +1,7 @@
+body, p, h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+}
+
 .pr-6,
 .px-6 {
     padding-right: 6rem !important;
@@ -6,6 +10,14 @@
 .pl-6,
 .px-6 {
     padding-left: 6rem !important;
+}
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
 }
 
 .mt-8 {
@@ -35,4 +47,31 @@
 
 .custom-btn.btn:hover {
     background-color: white;
+}
+
+div.benefit-card {
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+}
+
+div.benefit-card img{
+    width: 85%;
+    height: 85%;
+}
+
+div.benefit-card-small {
+    padding: 0.5em;
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+
+div.benefit-card-small img {
+    width: 3rem;
+    height: 4rem;
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
 }
