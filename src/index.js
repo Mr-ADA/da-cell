@@ -5,6 +5,11 @@ import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import LandingPage from "./pages/LandingPage";
+import Catalog from "./pages/Catalog";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
