@@ -1,0 +1,12 @@
+.item-description .color-selectors {
+  margin: 1em auto 0;
+  display: flex;
+  flex: wrap;
+}
+.item-description .selector {
+  margin: 0.4em;
+  background-color: black;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+}

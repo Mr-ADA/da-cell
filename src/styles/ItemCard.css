@@ -1,0 +1,40 @@
+.carousel {
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.carousel.slide img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.carousel.slide .button-wrapper {
+  box-sizing: border-box;
+  background-color: #bebebe;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.carousel.slide .button-wrapper:hover {
+  transform: scale(1.4);
+}
+
+.carousel.slide span {
+  display: table;
+  margin: 0 auto;
+}
+
+.carousel.slide .color-selectors {
+  width: fit-content;
+  margin: 1em auto 0;
+  display: flex;
+  flex: wrap;
+}
+.carousel.slide .selector {
+  margin: 0.4em;
+  background-color: black;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+}
