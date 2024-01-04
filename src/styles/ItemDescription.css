@@ -3,10 +3,39 @@
   display: flex;
   flex: wrap;
 }
-.item-description .selector {
+.item-description .description{
+  line-height: .3em;
+  font-weight: 200;
+}
+.item-description .color-selector {
   margin: 0.4em;
   background-color: black;
   width: 1.5em;
   height: 1.5em;
   border-radius: 50%;
+}
+
+.item-description .storage-selectors{
+  display: flex;
+}
+
+.item-description .storage-selector{
+  width: 5.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: .6em .8em;
+  border: .5px solid #bebebe;
+  cursor: pointer;
+}
+
+.item-description .storage-selector:hover{
+  background-color: #1b8cef;
+  color: #ffffff;
+}
+
+.btn-add-to-cart{
+  background-color: #2f2f2f;
+  color: #ffffff;
+  width: 90%;
+  padding: .5em 1em;
 }

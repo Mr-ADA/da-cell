@@ -1,0 +1,17 @@
+.catalog-details{
+    display: flex;
+    flex: wrap;
+    margin: 2em 0;
+}
+
+.item-card{
+    width:80%;
+    height: 20rem;
+    box-sizing: border-box;
+    margin: 0 2em 0 5em;
+}
+
+.item-description{
+    box-sizing: border-box;
+    margin: 0 5em 0 2em;
+}
